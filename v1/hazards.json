@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "updated_at": "2025-08-15T00:00:00Z",
+  "items": [
+    {
+      "key": "potassium bromate",
+      "aliases": ["potassium bromate", "bromated flour"],
+      "enumbers": ["e924"],
+      "hazard_level": "avoid",
+      "note": "Oxidizing agent; flagged by multiple regulators; linked to carcinogenicity in animal studies."
+    },
+    {
+      "key": "bha",
+      "aliases": ["bha", "butylated hydroxyanisole"],
+      "enumbers": ["e320"],
+      "hazard_level": "caution",
+      "note": "Antioxidant preservative; some animal tumor promotion data at high doses."
+    },
+    {
+      "key": "bht",
+      "aliases": ["bht", "butylated hydroxytoluene"],
+      "enumbers": ["e321"],
+      "hazard_level": "caution",
+      "note": "Antioxidant preservative; mixed evidence."
+    },
+    {
+      "key": "sodium nitrite",
+      "aliases": ["sodium nitrite", "nitrite"],
+      "enumbers": ["e250"],
+      "hazard_level": "caution",
+      "note": "Can form nitrosamines in processed meats; risk depends on processing context."
+    },
+    {
+      "key": "sodium nitrate",
+      "aliases": ["sodium nitrate", "nitrate"],
+      "enumbers": ["e251"],
+      "hazard_level": "caution",
+      "note": "Precursor to nitrite; context-dependent risk in cured meats."
+    },
+    {
+      "key": "azodicarbonamide",
+      "aliases": ["azodicarbonamide", "ada"],
+      "hazard_level": "avoid",
+      "note": "Dough conditioner; banned in EU; byproduct concerns."
+    },
+    {
+      "key": "titanium dioxide",
+      "aliases": ["titanium dioxide", "tio2"],
+      "enumbers": ["e171"],
+      "hazard_level": "caution",
+      "note": "EU banned as additive; potential particle toxicity."
+    },
+    {
+      "key": "carrageenan",
+      "aliases": ["carrageenan"],
+      "hazard_level": "caution",
+      "note": "Thickener; GI tolerance concerns in some studies."
+    },
+    {
+      "key": "polysorbate 80",
+      "aliases": ["polysorbate 80"],
+      "enumbers": ["e433"],
+      "hazard_level": "caution",
+      "note": "Emulsifier; animal data suggest gut barrier effects at high intake."
+    },
+    {
+      "key": "sodium benzoate",
+      "aliases": ["sodium benzoate", "benzoate"],
+      "enumbers": ["e211"],
+      "hazard_level": "caution",
+      "note": "May form benzene with ascorbic acid under heat/light."
+    },
+    {
+      "key": "aspartame",
+      "aliases": ["aspartame"],
+      "enumbers": ["e951"],
+      "hazard_level": "caution",
+      "note": "Artificial sweetener; differing classifications; intake limits apply."
+    },
+    {
+      "key": "acesulfame potassium",
+      "aliases": ["acesulfame potassium", "acesulfame-k", "ace-k"],
+      "enumbers": ["e950"],
+      "hazard_level": "caution",
+      "note": "Artificial sweetener; intake limits apply."
+    },
+    {
+      "key": "sucralose",
+      "aliases": ["sucralose"],
+      "enumbers": ["e955"],
+      "hazard_level": "caution",
+      "note": "Artificial sweetener; some studies raise concerns at high doses."
+    }
+  ]
+}
