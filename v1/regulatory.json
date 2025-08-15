@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "updated_at": "2025-08-15T00:00:00Z",
+  "items": [
+    {
+      "key": "brominated vegetable oil",
+      "aliases": ["brominated vegetable oil", "bvo", "brominated soybean oil"],
+      "enumbers": ["e443"],
+      "regions": {
+        "US_FDA": { "status": "prohibited", "effective": "2024-08-02", "compliance_by": "2025-08-02" },
+        "EU": { "status": "prohibited" },
+        "UK_GB": { "status": "unknown", "note": "Not authorized historically in EU; GB diverges (unknown in MVP)" },
+        "UK_NI": { "status": "prohibited", "note": "Follows EU rules" },
+        "CA": { "status": "prohibited", "effective": "2024-08-30", "compliance_by": "2025-08-30" },
+        "US_CA": { "status": "prohibited", "effective": "2027-01-01" }
+      }
+    },
+    {
+      "key": "titanium dioxide",
+      "aliases": ["titanium dioxide", "titanium dioxide (e171)", "tio2"],
+      "enumbers": ["e171"],
+      "regions": {
+        "US_FDA": { "status": "permitted", "note": "Color additive with 1% by weight limit" },
+        "EU": { "status": "prohibited", "effective": "2022-08-07" },
+        "UK_GB": { "status": "permitted", "note": "GB did not adopt EU ban" },
+        "UK_NI": { "status": "prohibited" },
+        "CA": { "status": "permitted" },
+        "US_CA": { "status": "permitted" }
+      }
+    }
+    // ...add more items
+  ]
+}
