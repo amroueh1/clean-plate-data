@@ -1,1 +1,120 @@
+{
+  "items": [
+    {
+      "tag": "en:brominated-vegetable-oil",
+      "aliases": ["bvo", "brominated soybean oil"],
+      "enumbers": ["e443"],
+      "regions": {
+        "US_FDA": { "status": "prohibited", "effective": "2024-08-02", "compliance_by": "2025-08-02", "note": "FDA final rule removing BVO authorization." },
+        "EU":     { "status": "prohibited" },
+        "UK_GB":  { "status": "unknown", "note": "Historically not authorized in EU; GB divergence not fully tracked here." },
+        "UK_NI":  { "status": "prohibited", "note": "Follows EU rules." },
+        "CA":     { "status": "prohibited", "effective": "2024-08-30", "compliance_by": "2025-08-30" },
+        "US_CA":  { "status": "prohibited", "effective": "2027-01-01", "note": "California Food Safety Act (AB 418)." }
+      }
+    },
+    {
+      "tag": "en:titanium-dioxide",
+      "aliases": ["tio2"],
+      "enumbers": ["e171"],
+      "regions": {
+        "US_FDA": { "status": "permitted", "note": "Color additive with 1% by weight limit." },
+        "EU":     { "status": "prohibited", "effective": "2022-08-07" },
+        "UK_GB":  { "status": "permitted", "note": "GB did not adopt EU ban." },
+        "UK_NI":  { "status": "prohibited" },
+        "CA":     { "status": "permitted" },
+        "US_CA":  { "status": "permitted" }
+      }
+    },
+    {
+      "tag": "en:potassium-bromate",
+      "aliases": ["bromated flour"],
+      "enumbers": ["e924"],
+      "regions": {
+        "US_FDA": { "status": "permitted", "note": "Not federally banned (usage declining)." },
+        "EU":     { "status": "prohibited" },
+        "UK_GB":  { "status": "prohibited" },
+        "UK_NI":  { "status": "prohibited" },
+        "CA":     { "status": "prohibited" },
+        "US_CA":  { "status": "prohibited", "effective": "2027-01-01" }
+      }
+    },
+    {
+      "tag": "en:red-3",
+      "aliases": ["erythrosine", "fd-c-red-no-3"],
+      "enumbers": ["e127"],
+      "regions": {
+        "US_FDA": { "status": "permitted" },
+        "EU":     { "status": "restricted" },
+        "UK_GB":  { "status": "restricted" },
+        "UK_NI":  { "status": "restricted" },
+        "CA":     { "status": "permitted" },
+        "US_CA":  { "status": "prohibited", "effective": "2027-01-01" }
+      }
+    },
+    {
+      "tag": "en:cyclamates",
+      "aliases": ["sodium cyclamate", "calcium cyclamate"],
+      "enumbers": ["e952"],
+      "regions": {
+        "US_FDA": { "status": "prohibited" },
+        "EU":     { "status": "restricted" },
+        "UK_GB":  { "status": "restricted" },
+        "UK_NI":  { "status": "restricted" },
+        "CA":     { "status": "restricted" },
+        "US_CA":  { "status": "prohibited" }
+      }
+    },
+    {
+      "tag": "en:fast-green-fcf",
+      "aliases": ["green 3"],
+      "enumbers": ["e143"],
+      "regions": {
+        "US_FDA": { "status": "permitted" },
+        "EU":     { "status": "prohibited" },
+        "UK_GB":  { "status": "prohibited" },
+        "UK_NI":  { "status": "prohibited" },
+        "CA":     { "status": "permitted" },
+        "US_CA":  { "status": "permitted" }
+      }
+    },
+    {
+      "tag": "en:azodicarbonamide",
+      "aliases": ["ada"],
+      "regions": {
+        "US_FDA": { "status": "permitted", "note": "Dough conditioner; limits apply." },
+        "EU":     { "status": "prohibited" },
+        "UK_GB":  { "status": "prohibited" },
+        "UK_NI":  { "status": "prohibited" },
+        "CA":     { "status": "restricted", "note": "Limited uses." },
+        "US_CA":  { "status": "permitted" }
+      }
+    },
+    {
+      "tag": "en:partially-hydrogenated-oils",
+      "aliases": ["phos", "industrial trans fat"],
+      "regions": {
+        "US_FDA": { "status": "prohibited", "effective": "2018-06-18", "note": "PHOs removed from GRAS (2015 determination) with compliance windows." },
+        "EU":     { "status": "restricted", "note": "Industrial trans fat capped by regulation." },
+        "UK_GB":  { "status": "restricted" },
+        "UK_NI":  { "status": "restricted" },
+        "CA":     { "status": "prohibited", "note": "PHOs banned." },
+        "US_CA":  { "status": "prohibited" }
+      }
+    },
+    {
+      "tag": "en:nitrites-nitrates-meat",
+      "aliases": ["sodium nitrite", "sodium nitrate", "potassium nitrate"],
+      "enumbers": ["e250","e251","e252"],
+      "regions": {
+        "US_FDA": { "status": "permitted", "note": "CFR limits and processing requirements." },
+        "EU":     { "status": "restricted", "note": "Maximum ingoing/outgoing limits by category." },
+        "UK_GB":  { "status": "restricted" },
+        "UK_NI":  { "status": "restricted" },
+        "CA":     { "status": "restricted" },
+        "US_CA":  { "status": "permitted" }
+      }
+    }
+  ]
+}
 
