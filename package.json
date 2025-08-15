@@ -1,0 +1,9 @@
+{
+  "name": "clean-plate-data",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "node scripts/build-data.mjs"
+  }
+}
