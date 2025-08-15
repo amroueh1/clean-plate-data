@@ -1,1 +1,36 @@
+{
+  "avoid": [
+    "en:potassium-bromate",
+    "en:azodicarbonamide",
+    "en:brominated-vegetable-oil",
+    "en:partially-hydrogenated-oils"
+  ],
+  "caution": [
+    "en:titanium-dioxide",      "en:bha",                   "en:bht",
+    "en:tbhq",                  "en:propyl-gallate",
+    "en:sodium-nitrite",        "en:sodium-nitrate",        "en:potassium-nitrate",
+    "en:benzoic-acid",          "en:sodium-benzoate",       "en:potassium-benzoate",
+    "en:sulfur-dioxide",        "en:sodium-metabisulfite",  "en:potassium-metabisulfite",
+    "en:tartrazine",            "en:sunset-yellow-fcf",     "en:allura-red-ac",
+    "en:erythrosine",           "en:brilliant-blue-fcf",    "en:indigotine",
+    "en:fast-green-fcf",
+    "en:acesulfame-k",          "en:aspartame",             "en:sucralose",
+    "en:saccharin",             "en:cyclamates",
+    "en:polysorbate-80",        "en:polysorbate-60",
+    "en:carboxymethylcellulose",
+    "en:propylene-glycol",
+    "en:phosphoric-acid",       "en:sodium-phosphates",
+    "en:high-fructose-corn-syrup",
+    "en:carrageenan"
+  ],
+  "notes": {
+    "en:potassium-bromate": "Dough improver; prohibited EU/UK/CA; linked to carcinogenicity in animal studies.",
+    "en:azodicarbonamide": "Dough conditioner; not permitted in EU; byproduct concerns during baking.",
+    "en:brominated-vegetable-oil": "Emulsifier in citrus drinks; now prohibited by FDA (2024), Canada (2024), EU historically not authorized.",
+    "en:partially-hydrogenated-oils": "Industrial trans fats; PHOs removed from GRAS in US (2015 ruling; 2018–2020 compliance).",
+    "en:titanium-dioxide": "EU ban as additive E171 (2022); permitted with limits in several regions.",
+    "en:sodium-nitrite": "Nitrosamine formation risk in processed meats; strict limits/processing rules.",
+    "en:cyclamates": "Prohibited in US since 1970; permitted with limits in EU/CA."
+  }
+}
 
