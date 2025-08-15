@@ -9,6 +9,13 @@
       "hazard_level": "avoid",
       "note": "Oxidizing agent; flagged by multiple regulators; linked to carcinogenicity in animal studies."
     },
+     {
+      "key": "ali",
+      "aliases": ["ali"],
+      "enumbers": ["e924"],
+      "hazard_level": "avoid",
+      "note": "test"
+    },
     {
       "key": "bha",
       "aliases": ["bha", "butylated hydroxyanisole"],
