@@ -1,33 +1,130 @@
 {
   "version": 1,
-  "updated_at": "2025-08-15T00:00:00Z",
   "items": [
     {
       "key": "brominated vegetable oil",
       "aliases": ["brominated vegetable oil", "bvo", "brominated soybean oil"],
       "enumbers": ["e443"],
       "regions": {
-        "US_FDA": { "status": "prohibited", "effective": "2024-08-02", "compliance_by": "2025-08-02" },
-        "EU": { "status": "prohibited" },
-        "UK_GB": { "status": "unknown", "note": "Not authorized historically in EU; GB diverges (unknown in MVP)" },
-        "UK_NI": { "status": "prohibited", "note": "Follows EU rules" },
-        "CA": { "status": "prohibited", "effective": "2024-08-30", "compliance_by": "2025-08-30" },
-        "US_CA": { "status": "prohibited", "effective": "2027-01-01" }
+        "US_FDA": { "status": "prohibited", "effective": "2024-08-02", "compliance_by": "2025-08-02", "note": "Removed from GRAS; phase-out timeline." },
+        "EU":     { "status": "prohibited" },
+        "UK_GB":  { "status": "unknown", "note": "Historically not authorized in EU; GB diverges from EU (MVP unknown)." },
+        "UK_NI":  { "status": "prohibited", "note": "Follows EU rules." },
+        "CA":     { "status": "prohibited", "effective": "2024-08-30", "compliance_by": "2025-08-30" },
+        "US_CA":  { "status": "prohibited", "effective": "2027-01-01", "note": "CA law banning certain additives." }
       }
     },
     {
       "key": "titanium dioxide",
-      "aliases": ["titanium dioxide", "titanium dioxide (e171)", "tio2"],
+      "aliases": ["titanium dioxide", "tio2"],
       "enumbers": ["e171"],
       "regions": {
         "US_FDA": { "status": "permitted", "note": "Color additive with 1% by weight limit" },
-        "EU": { "status": "prohibited", "effective": "2022-08-07" },
-        "UK_GB": { "status": "permitted", "note": "GB did not adopt EU ban" },
-        "UK_NI": { "status": "prohibited" },
-        "CA": { "status": "permitted" },
-        "US_CA": { "status": "permitted" }
+        "EU":     { "status": "prohibited", "effective": "2022-08-07" },
+        "UK_GB":  { "status": "permitted", "note": "GB did not adopt EU ban." },
+        "UK_NI":  { "status": "prohibited" },
+        "CA":     { "status": "permitted" },
+        "US_CA":  { "status": "permitted" }
+      }
+    },
+    {
+      "key": "potassium bromate",
+      "aliases": ["potassium bromate", "bromated flour"],
+      "enumbers": ["e924"],
+      "regions": {
+        "US_FDA": { "status": "permitted", "note": "Not federally banned (usage declining)." },
+        "EU":     { "status": "prohibited" },
+        "UK_GB":  { "status": "prohibited" },
+        "UK_NI":  { "status": "prohibited" },
+        "CA":     { "status": "prohibited" },
+        "US_CA":  { "status": "prohibited", "effective": "2027-01-01" }
+      }
+    },
+    {
+      "key": "red dye 3",
+      "aliases": ["fd&c red no. 3", "red 3", "erythrosine"],
+      "enumbers": ["e127"],
+      "regions": {
+        "US_FDA": { "status": "permitted" },
+        "EU":     { "status": "restricted" },
+        "UK_GB":  { "status": "restricted" },
+        "UK_NI":  { "status": "restricted" },
+        "CA":     { "status": "permitted" },
+        "US_CA":  { "status": "prohibited", "effective": "2027-01-01" }
+      }
+    },
+    {
+      "key": "cyclamates",
+      "aliases": ["cyclamate", "sodium cyclamate", "calcium cyclamate"],
+      "enumbers": ["e952"],
+      "regions": {
+        "US_FDA": { "status": "prohibited" },
+        "EU":     { "status": "restricted", "note": "Permitted with maximum use levels." },
+        "UK_GB":  { "status": "restricted" },
+        "UK_NI":  { "status": "restricted" },
+        "CA":     { "status": "restricted", "note": "Permitted for certain uses/levels." },
+        "US_CA":  { "status": "prohibited" }
+      }
+    },
+    {
+      "key": "green 3",
+      "aliases": ["green 3", "fast green fcf"],
+      "enumbers": [],
+      "regions": {
+        "US_FDA": { "status": "permitted" },
+        "EU":     { "status": "prohibited" },
+        "UK_GB":  { "status": "prohibited" },
+        "UK_NI":  { "status": "prohibited" },
+        "CA":     { "status": "permitted" },
+        "US_CA":  { "status": "permitted" }
+      }
+    },
+    {
+      "key": "azodicarbonamide",
+      "aliases": ["azodicarbonamide", "ada"],
+      "enumbers": [],
+      "regions": {
+        "US_FDA": { "status": "permitted", "note": "Dough conditioner; limits apply." },
+        "EU":     { "status": "prohibited" },
+        "UK_GB":  { "status": "prohibited" },
+        "UK_NI":  { "status": "prohibited" },
+        "CA":     { "status": "restricted", "note": "Uses limited." },
+        "US_CA":  { "status": "permitted" }
+      }
+    },
+    {
+      "key": "partially hydrogenated oils",
+      "aliases": ["partially hydrogenated oil", "phos", "trans fat"],
+      "enumbers": [],
+      "regions": {
+        "US_FDA": { "status": "prohibited", "effective": "2018-06-18", "note": "PHOs removed from GRAS; compliance via enforcement discretion windows." },
+        "EU":     { "status": "restricted", "note": "Industrial trans fat capped by regulation." },
+        "UK_GB":  { "status": "restricted" },
+        "UK_NI":  { "status": "restricted" },
+        "CA":     { "status": "prohibited", "note": "Partially hydrogenated oils banned." },
+        "US_CA":  { "status": "prohibited" }
+      }
+    },
+    {
+      "key": "titanium dioxide (e171) labelling",
+      "aliases": ["titanium dioxide (e171)"],
+      "enumbers": ["e171"],
+      "regions": {
+        "EU": { "status": "prohibited", "effective": "2022-08-07", "note": "Union list update and removal period complete." }
+      }
+    },
+    {
+      "key": "nitrites/nitrates (meat curing)",
+      "aliases": ["sodium nitrite", "sodium nitrate", "potassium nitrate"],
+      "enumbers": ["e250", "e251", "e252"],
+      "regions": {
+        "US_FDA": { "status": "permitted", "note": "CFR limits and processing requirements apply." },
+        "EU":     { "status": "restricted", "note": "Maximum ingoing/outgoing limits by category." },
+        "UK_GB":  { "status": "restricted" },
+        "UK_NI":  { "status": "restricted" },
+        "CA":     { "status": "restricted" },
+        "US_CA":  { "status": "permitted" }
       }
     }
-    // ...add more items
   ]
 }
