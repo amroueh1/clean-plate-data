@@ -1,1 +1,34 @@
+name: Build data (OFF → app files)
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * 1"   # Mondays 06:00 UTC
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Use Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build data
+        run: |
+          npm ci --ignore-scripts --no-audit --no-fund || true
+          node scripts/build-data.mjs
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name  "data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add v1/*.json
+          git diff --quiet && echo "No changes" || git commit -m "data: refresh OFF taxonomies"
+          git push
 
