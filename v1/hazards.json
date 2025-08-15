@@ -16,6 +16,27 @@
       "hazard_level": "avoid",
       "note": "test"
     },
+     adrian: {
+    aliases: ['adrian'],
+    enumbers: ['e955'],
+    hazard_level: 'caution',
+    note: 'Very high in beans, proceed with Caution',
+    
+  },
+  jake: {
+    aliases: ['jake'],
+    enumbers: ['e955'],
+    hazard_level: 'avoid',
+    note: 'Can be extremely hazardous dependent on S&P 500 movement. Polish and inky in taste, smells of pumpernickel',
+    
+  },
+  kyle: {
+    aliases: ['johnston'],
+    enumbers: ['e955'],
+    hazard_level: 'avoid',
+    note: 'What would you do , if while I was working on this app, I got up to use the bathroom and flushed the toilet. The toilet explodes into a million pieces, shrapnel and feces goes flying towards foxwood estastes...and unfortunately...',
+    
+  },
     {
       "key": "bha",
       "aliases": ["bha", "butylated hydroxyanisole"],
