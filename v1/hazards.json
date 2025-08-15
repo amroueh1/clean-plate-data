@@ -3,13 +3,6 @@
   "updated_at": "2025-08-15T00:00:00Z",
   "items": [
     {
-      "key": "potassium bromate",
-      "aliases": ["potassium bromate", "bromated flour"],
-      "enumbers": ["e924"],
-      "hazard_level": "avoid",
-      "note": "Oxidizing agent; flagged by multiple regulators; linked to carcinogenicity in animal studies."
-    },
-     {
       "key": "ali",
       "aliases": ["ali"],
       "enumbers": ["e924"],
@@ -37,87 +30,73 @@
       "hazard_level": "avoid",
       "note": "What would you do , if while I was working on this app, I got up to use the bathroom and flushed the toilet. The toilet explodes into a million pieces, shrapnel and feces goes flying towards foxwood estastes...and unfortunately..."
     },
-    {
-      "key": "bha",
-      "aliases": ["bha", "butylated hydroxyanisole"],
-      "enumbers": ["e320"],
-      "hazard_level": "caution",
-      "note": "Antioxidant preservative; some animal tumor promotion data at high doses."
-    },
-    {
-      "key": "bht",
-      "aliases": ["bht", "butylated hydroxytoluene"],
-      "enumbers": ["e321"],
-      "hazard_level": "caution",
-      "note": "Antioxidant preservative; mixed evidence."
-    },
-    {
-      "key": "sodium nitrite",
-      "aliases": ["sodium nitrite", "nitrite"],
-      "enumbers": ["e250"],
-      "hazard_level": "caution",
-      "note": "Can form nitrosamines in processed meats; risk depends on processing context."
-    },
-    {
-      "key": "sodium nitrate",
-      "aliases": ["sodium nitrate", "nitrate"],
-      "enumbers": ["e251"],
-      "hazard_level": "caution",
-      "note": "Precursor to nitrite; context-dependent risk in cured meats."
-    },
-    {
-      "key": "azodicarbonamide",
-      "aliases": ["azodicarbonamide", "ada"],
-      "hazard_level": "avoid",
-      "note": "Dough conditioner; banned in EU; byproduct concerns."
-    },
-    {
-      "key": "titanium dioxide",
-      "aliases": ["titanium dioxide", "tio2"],
-      "enumbers": ["e171"],
-      "hazard_level": "caution",
-      "note": "EU banned as additive; potential particle toxicity."
-    },
-    {
-      "key": "carrageenan",
-      "aliases": ["carrageenan"],
-      "hazard_level": "caution",
-      "note": "Thickener; GI tolerance concerns in some studies."
-    },
-    {
-      "key": "polysorbate 80",
-      "aliases": ["polysorbate 80"],
-      "enumbers": ["e433"],
-      "hazard_level": "caution",
-      "note": "Emulsifier; animal data suggest gut barrier effects at high intake."
-    },
-    {
-      "key": "sodium benzoate",
-      "aliases": ["sodium benzoate", "benzoate"],
-      "enumbers": ["e211"],
-      "hazard_level": "caution",
-      "note": "May form benzene with ascorbic acid under heat/light."
-    },
-    {
-      "key": "aspartame",
-      "aliases": ["aspartame"],
-      "enumbers": ["e951"],
-      "hazard_level": "caution",
-      "note": "Artificial sweetener; differing classifications; intake limits apply."
-    },
-    {
-      "key": "acesulfame potassium",
-      "aliases": ["acesulfame potassium", "acesulfame-k", "ace-k"],
-      "enumbers": ["e950"],
-      "hazard_level": "caution",
-      "note": "Artificial sweetener; intake limits apply."
-    },
-    {
-      "key": "sucralose",
-      "aliases": ["sucralose"],
-      "enumbers": ["e955"],
-      "hazard_level": "caution",
-      "note": "Artificial sweetener; some studies raise concerns at high doses."
-    }
+    { "key": "potassium bromate", "aliases": ["potassium bromate", "bromated flour"], "enumbers": ["e924"], "hazard_level": "avoid", "note": "Bread improver; prohibited in EU/UK/CA; linked to carcinogenicity in animals." },
+    { "key": "azodicarbonamide", "aliases": ["azodicarbonamide", "ada"], "enumbers": [], "hazard_level": "avoid", "note": "Dough conditioner; not permitted in EU; byproduct concerns during baking." },
+    { "key": "brominated vegetable oil", "aliases": ["brominated vegetable oil", "bvo", "brominated soybean oil"], "enumbers": ["e443"], "hazard_level": "avoid", "note": "Emulsifier for citrus drinks; prohibited in EU/CA; removed in many markets." },
+    { "key": "partially hydrogenated oils", "aliases": ["partially hydrogenated oil", "phos", "trans fat"], "enumbers": [], "hazard_level": "avoid", "note": "Industrial trans fats; effectively eliminated in many jurisdictions." },
+
+    { "key": "titanium dioxide", "aliases": ["titanium dioxide", "tio2"], "enumbers": ["e171"], "hazard_level": "caution", "note": "Color additive; EU banned as food additive; particle-size concerns." },
+
+    { "key": "bha", "aliases": ["butylated hydroxyanisole", "bha"], "enumbers": ["e320"], "hazard_level": "caution", "note": "Antioxidant; tumor promotion at high doses in animals; limits apply." },
+    { "key": "bht", "aliases": ["butylated hydroxytoluene", "bht"], "enumbers": ["e321"], "hazard_level": "caution", "note": "Antioxidant; mixed evidence; limits apply." },
+    { "key": "tbhq", "aliases": ["tertiary butylhydroquinone", "tbhq"], "enumbers": ["e319"], "hazard_level": "caution", "note": "Antioxidant; high-dose effects in animals; limits apply." },
+    { "key": "propyl gallate", "aliases": ["propyl gallate"], "enumbers": ["e310"], "hazard_level": "caution", "note": "Antioxidant; usually used with BHA/BHT." },
+
+    { "key": "sodium nitrite", "aliases": ["sodium nitrite", "nitrite"], "enumbers": ["e250"], "hazard_level": "caution", "note": "Curing salt; nitrosamine formation risk in processed meats; usage limits apply." },
+    { "key": "sodium nitrate", "aliases": ["sodium nitrate", "nitrate"], "enumbers": ["e251"], "hazard_level": "caution", "note": "Precursor to nitrite; restricted context of use." },
+    { "key": "potassium nitrate", "aliases": ["potassium nitrate", "saltpetre", "saltpeter"], "enumbers": ["e252"], "hazard_level": "caution", "note": "Curing agent; restricted uses." },
+
+    { "key": "sorbic acid", "aliases": ["sorbic acid"], "enumbers": ["e200"], "hazard_level": "caution", "note": "Preservative; generally recognized with limits." },
+    { "key": "potassium sorbate", "aliases": ["potassium sorbate"], "enumbers": ["e202"], "hazard_level": "caution", "note": "Preservative; limits apply." },
+    { "key": "calcium propionate", "aliases": ["calcium propionate"], "enumbers": ["e282"], "hazard_level": "caution", "note": "Preservative in breads; tolerance varies; limits apply." },
+    { "key": "propionic acid", "aliases": ["propionic acid"], "enumbers": ["e280"], "hazard_level": "caution", "note": "Preservative; limits apply." },
+
+    { "key": "benzoic acid", "aliases": ["benzoic acid"], "enumbers": ["e210"], "hazard_level": "caution", "note": "Preservative; can form benzene with vitamin C under heat/light." },
+    { "key": "sodium benzoate", "aliases": ["sodium benzoate"], "enumbers": ["e211"], "hazard_level": "caution", "note": "Preservative; benzene formation risk in specific conditions." },
+    { "key": "potassium benzoate", "aliases": ["potassium benzoate"], "enumbers": ["e212"], "hazard_level": "caution", "note": "Preservative; same benzene concern context as sodium benzoate." },
+
+    { "key": "sulfur dioxide", "aliases": ["sulfur dioxide", "sulphur dioxide"], "enumbers": ["e220"], "hazard_level": "caution", "note": "Preservative; asthma sensitivity; strict labelling thresholds." },
+    { "key": "sodium metabisulfite", "aliases": ["sodium metabisulfite", "sodium pyrosulfite"], "enumbers": ["e223"], "hazard_level": "caution", "note": "Sulfite preservative; sensitivity in some individuals." },
+    { "key": "potassium metabisulfite", "aliases": ["potassium metabisulfite", "potassium pyrosulfite"], "enumbers": ["e224"], "hazard_level": "caution", "note": "Sulfite preservative; sensitivity in some individuals." },
+
+    { "key": "red 40", "aliases": ["red 40", "allura red ac"], "enumbers": ["e129"], "hazard_level": "caution", "note": "Artificial color; behavior/hyperactivity concerns debated; regulations vary." },
+    { "key": "red 3", "aliases": ["fd&c red no. 3", "erythrosine", "red 3"], "enumbers": ["e127"], "hazard_level": "caution", "note": "Color additive; restrictions and regional differences." },
+    { "key": "yellow 5", "aliases": ["yellow 5", "tartrazine"], "enumbers": ["e102"], "hazard_level": "caution", "note": "Artificial color; sensitivity in some; warning labels in some regions." },
+    { "key": "yellow 6", "aliases": ["yellow 6", "sunset yellow fcf"], "enumbers": ["e110"], "hazard_level": "caution", "note": "Artificial color; sensitivity in some; warning labels in some regions." },
+    { "key": "blue 1", "aliases": ["blue 1", "brilliant blue fcf"], "enumbers": ["e133"], "hazard_level": "caution", "note": "Artificial color; rare sensitivity reports." },
+    { "key": "blue 2", "aliases": ["blue 2", "indigotine"], "enumbers": ["e132"], "hazard_level": "caution", "note": "Artificial color; rare sensitivity reports." },
+    { "key": "green 3", "aliases": ["green 3", "fast green fcf"], "enumbers": [], "hazard_level": "caution", "note": "Artificial color; not permitted in the EU; allowed in some regions." },
+
+    { "key": "aspartame", "aliases": ["aspartame"], "enumbers": ["e951"], "hazard_level": "caution", "note": "High-intensity sweetener; ADI applies; phenylketonuria warning (phenylalanine)." },
+    { "key": "acesulfame potassium", "aliases": ["acesulfame potassium", "acesulfame-k", "ace-k"], "enumbers": ["e950"], "hazard_level": "caution", "note": "High-intensity sweetener; ADI applies." },
+    { "key": "sucralose", "aliases": ["sucralose"], "enumbers": ["e955"], "hazard_level": "caution", "note": "High-intensity sweetener; heat stability debated; ADI applies." },
+    { "key": "saccharin", "aliases": ["saccharin"], "enumbers": ["e954"], "hazard_level": "caution", "note": "High-intensity sweetener; ADI applies; long safety history with earlier concerns." },
+    { "key": "cyclamates", "aliases": ["cyclamate", "sodium cyclamate", "calcium cyclamate"], "enumbers": ["e952"], "hazard_level": "caution", "note": "High-intensity sweeteners; prohibited in US; permitted with limits in EU/other regions." },
+    { "key": "neotame", "aliases": ["neotame"], "enumbers": ["e961"], "hazard_level": "info", "note": "High-intensity sweetener; ADI applies." },
+    { "key": "advantame", "aliases": ["advantame"], "enumbers": ["e969"], "hazard_level": "info", "note": "High-intensity sweetener; ADI applies." },
+    { "key": "steviol glycosides", "aliases": ["steviol glycosides", "stevia extract", "rebaudioside a", "reb a"], "enumbers": ["e960"], "hazard_level": "info", "note": "Sweetener from stevia; ADI applies; generally well tolerated." },
+    { "key": "xylitol", "aliases": ["xylitol"], "enumbers": ["e967"], "hazard_level": "info", "note": "Sugar alcohol; excessive intake may cause GI upset." },
+    { "key": "sorbitol", "aliases": ["sorbitol"], "enumbers": ["e420"], "hazard_level": "info", "note": "Sugar alcohol; laxative effect above certain amounts." },
+    { "key": "mannitol", "aliases": ["mannitol"], "enumbers": ["e421"], "hazard_level": "info", "note": "Sugar alcohol; laxative effect above certain amounts." },
+
+    { "key": "carrageenan", "aliases": ["carrageenan"], "enumbers": [], "hazard_level": "caution", "note": "Thickener from seaweed; GI tolerance concerns in some studies; permitted uses vary." },
+    { "key": "polysorbate 80", "aliases": ["polysorbate 80"], "enumbers": ["e433"], "hazard_level": "caution", "note": "Emulsifier; high-dose animal data suggest gut effects; limits apply." },
+    { "key": "polysorbate 60", "aliases": ["polysorbate 60"], "enumbers": ["e435"], "hazard_level": "caution", "note": "Emulsifier; limits apply." },
+    { "key": "carboxymethylcellulose", "aliases": ["carboxymethylcellulose", "cmc", "cellulose gum"], "enumbers": ["e466"], "hazard_level": "caution", "note": "Thickener; emerging data on microbiome/gut barrier (high doses)." },
+    { "key": "mono- and diglycerides", "aliases": ["mono and diglycerides of fatty acids", "emulsifier e471"], "enumbers": ["e471"], "hazard_level": "info", "note": "Emulsifier; source fats vary; generally permitted with limits." },
+    { "key": "lecithin", "aliases": ["lecithin", "soy lecithin", "sunflower lecithin"], "enumbers": ["e322"], "hazard_level": "info", "note": "Emulsifier; common, generally well tolerated." },
+    { "key": "xanthan gum", "aliases": ["xanthan gum"], "enumbers": ["e415"], "hazard_level": "info", "note": "Thickener; can cause gas at high intakes." },
+    { "key": "guar gum", "aliases": ["guar gum"], "enumbers": ["e412"], "hazard_level": "info", "note": "Thickener; can cause gas at high intakes." },
+    { "key": "propylene glycol", "aliases": ["propylene glycol"], "enumbers": ["e1520"], "hazard_level": "caution", "note": "Solvent/carrier; ADI applies; sensitivity in some individuals." },
+
+    { "key": "l-cysteine", "aliases": ["l-cysteine"], "enumbers": ["e920"], "hazard_level": "info", "note": "Dough conditioner; sometimes animal-derived; labeling varies." },
+    { "key": "phosphoric acid", "aliases": ["phosphoric acid"], "enumbers": ["e338"], "hazard_level": "caution", "note": "Acidulant in colas; high intake linked to enamel/bone concerns." },
+    { "key": "sodium phosphates", "aliases": ["sodium phosphate", "sodium phosphates"], "enumbers": ["e339"], "hazard_level": "caution", "note": "Emulsifier/buffer; excess dietary phosphate associated with CKD risk." },
+
+    { "key": "monosodium glutamate", "aliases": ["monosodium glutamate", "msg"], "enumbers": ["e621"], "hazard_level": "info", "note": "Flavor enhancer; safe for most within normal intake; sensitivities reported." },
+    { "key": "disodium inosinate", "aliases": ["disodium inosinate"], "enumbers": ["e631"], "hazard_level": "info", "note": "Flavor enhancer; often used with MSG." },
+    { "key": "disodium guanylate", "aliases": ["disodium guanylate"], "enumbers": ["e627"], "hazard_level": "info", "note": "Flavor enhancer; often used with MSG." },
+
+    { "key": "high fructose corn syrup", "aliases": ["hfcs", "high-fructose corn syrup", "glucose-fructose syrup"], "enumbers": [], "hazard_level": "caution", "note": "Sweetener; high intake linked to metabolic health concerns." }
   ]
 }
