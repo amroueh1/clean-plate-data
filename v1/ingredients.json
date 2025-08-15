@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "updated_at": "2025-08-15T00:00:00Z",
+  "items": [
+    {
+      "key": "sucralose",
+      "aliases": ["sucralose"],
+      "enumbers": ["e955"],
+      "summary": "Zero-calorie artificial sweetener ~600× sweeter than sugar.",
+      "detail": "Common in diet beverages, desserts, and protein powders. Stability under heat is debated; some studies discuss possible byproducts and microbiome impacts at high intake. Regulatory bodies set ADIs; overall safety depends on context and amount.",
+      "references": [
+        {"title": "FDA overview on high-intensity sweeteners", "url": "https://example.org/fda-sweeteners"},
+        {"title": "EFSA sweeteners opinions", "url": "https://example.org/efsa-sweeteners"}
+      ]
+    },
+    {
+      "key": "titanium dioxide",
+      "aliases": ["titanium dioxide", "tio2", "e171"],
+      "enumbers": ["e171"],
+      "summary": "White pigment/colorant used to brighten foods.",
+      "detail": "EU banned its use in food (2022) over uncertainties about nanoparticle effects; still permitted in some regions with limits.",
+      "references": []
+    },
+    {
+      "key": "sodium benzoate",
+      "aliases": ["sodium benzoate", "benzoate"],
+      "enumbers": ["e211"],
+      "summary": "Preservative used to inhibit microbial growth.",
+      "detail": "May form benzene in presence of ascorbic acid under heat/light; typically controlled by formulation and storage.",
+      "references": []
+    }
+    // ...add as many ingredients as you like
+  ]
+}
