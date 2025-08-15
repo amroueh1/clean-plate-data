@@ -1,34 +1,101 @@
 {
   "version": 1,
-  "updated_at": "2025-08-15T00:00:00Z",
   "items": [
     {
-      "key": "sucralose",
-      "aliases": ["sucralose"],
-      "enumbers": ["e955"],
-      "summary": "Zero-calorie artificial sweetener ~600× sweeter than sugar.",
-      "detail": "Common in diet beverages, desserts, and protein powders. Stability under heat is debated; some studies discuss possible byproducts and microbiome impacts at high intake. Regulatory bodies set ADIs; overall safety depends on context and amount.",
-      "references": [
-        {"title": "FDA overview on high-intensity sweeteners", "url": "https://example.org/fda-sweeteners"},
-        {"title": "EFSA sweeteners opinions", "url": "https://example.org/efsa-sweeteners"}
-      ]
+      "key": "titanium dioxide",
+      "aliases": ["titanium dioxide", "tio2"],
+      "enumbers": ["e171"],
+      "summary": "White color additive used to brighten/whiten foods.",
+      "detail": "A pigment used for opacity/whiteness in candies, baked goods, and supplements. Banned as a food additive in the EU; permitted with limits in several other jurisdictions.",
+      "references": ["FDA Color Additives", "EU additive list updates (E171)"]
     },
     {
-      "key": "titanium dioxide",
-      "aliases": ["titanium dioxide", "tio2", "e171"],
-      "enumbers": ["e171"],
-      "summary": "White pigment/colorant used to brighten foods.",
-      "detail": "EU banned its use in food (2022) over uncertainties about nanoparticle effects; still permitted in some regions with limits.",
-      "references": []
+      "key": "carrageenan",
+      "aliases": ["carrageenan"],
+      "enumbers": [],
+      "summary": "Thickener from red seaweed used for texture/stability.",
+      "detail": "Common in dairy alternatives and processed meats. Most people tolerate it, though some report GI discomfort. Regulations specify purity/processing grades.",
+      "references": ["JECFA evaluations", "Codex food additive spec"]
+    },
+    {
+      "key": "lecithin",
+      "aliases": ["lecithin", "soy lecithin", "sunflower lecithin"],
+      "enumbers": ["e322"],
+      "summary": "Emulsifier that helps oil and water mix.",
+      "detail": "Sourced from soy, sunflower, or eggs. Widely used in chocolate and baked goods. Allergen labeling may apply depending on source and region.",
+      "references": ["FDA allergens guidance"]
+    },
+    {
+      "key": "maltodextrin",
+      "aliases": ["maltodextrin"],
+      "enumbers": [],
+      "summary": "Starch-derived carbohydrate used as a filler or to adjust texture.",
+      "detail": "Common in drink mixes, snacks, and supplements. Highly digestible; can affect blood glucose. Source may be corn, wheat, potato, or tapioca.",
+      "references": ["FDA GRAS notices", "Nutrition texts"]
+    },
+    {
+      "key": "natural flavors",
+      "aliases": ["natural flavour", "natural flavorings", "natural flavours"],
+      "enumbers": [],
+      "summary": "Broad label for flavoring substances from ‘natural’ sources.",
+      "detail": "Exact composition isn’t disclosed on labels; can include distillates/extracts. Regulated for safety but opaque to consumers.",
+      "references": ["FDA flavor regulations", "EU flavoring regulation"]
+    },
+    {
+      "key": "aspartame",
+      "aliases": ["aspartame"],
+      "enumbers": ["e951"],
+      "summary": "High-intensity sweetener ~200× sweeter than sugar.",
+      "detail": "Contributes negligible calories. People with PKU must avoid due to phenylalanine. Acceptable daily intake (ADI) applies.",
+      "references": ["FDA", "EFSA", "Health Canada"]
+    },
+    {
+      "key": "polysorbate 80",
+      "aliases": ["polysorbate 80"],
+      "enumbers": ["e433"],
+      "summary": "Emulsifier that keeps ingredients mixed and smooth.",
+      "detail": "Used in ice cream, sauces, and beverages. Animal studies at high doses suggest possible gut barrier effects; regulatory limits apply.",
+      "references": ["EFSA opinions", "JECFA specs"]
     },
     {
       "key": "sodium benzoate",
-      "aliases": ["sodium benzoate", "benzoate"],
+      "aliases": ["sodium benzoate"],
       "enumbers": ["e211"],
-      "summary": "Preservative used to inhibit microbial growth.",
-      "detail": "May form benzene in presence of ascorbic acid under heat/light; typically controlled by formulation and storage.",
-      "references": []
+      "summary": "Preservative to inhibit microbial growth in acidic foods.",
+      "detail": "In presence of ascorbic acid and heat/light, small amounts of benzene can form; manufacturers control formulations to minimize this.",
+      "references": ["FDA guidance", "industry stability studies"]
+    },
+    {
+      "key": "phosphoric acid",
+      "aliases": ["phosphoric acid"],
+      "enumbers": ["e338"],
+      "summary": "Acidulant that provides tartness, especially in colas.",
+      "detail": "High dietary phosphate intake is associated with mineral balance concerns. Regulations set purity and usage standards.",
+      "references": ["EFSA", "FDA"]
+    },
+    {
+      "key": "monosodium glutamate",
+      "aliases": ["monosodium glutamate", "msg"],
+      "enumbers": ["e621"],
+      "summary": "Flavor enhancer contributing umami taste.",
+      "detail": "Considered safe for the general population. Some individuals report sensitivity; labeling requirements differ by region.",
+      "references": ["FDA", "JECFA"]
+    },
+    {
+      "key": "potassium sorbate",
+      "aliases": ["potassium sorbate"],
+      "enumbers": ["e202"],
+      "summary": "Preservative effective against molds and yeasts.",
+      "detail": "Common in cheeses, baked goods, and beverages. Usage caps and combined preservative systems are typical.",
+      "references": ["Codex", "EFSA"]
+    },
+    {
+      "key": "potassium bromate",
+      "aliases": ["potassium bromate", "bromated flour"],
+      "enumbers": ["e924"],
+      "summary": "Dough improver used to strengthen bread dough.",
+      "detail": "Prohibited in EU/UK/CA. Associated with carcinogenicity in animal studies; alternatives widely used.",
+      "references": ["EU additive list", "Health Canada", "UK FSA"]
     }
-    // ...add as many ingredients as you like
   ]
 }
