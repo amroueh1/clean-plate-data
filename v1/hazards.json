@@ -2,34 +2,7 @@
   "version": 1,
   "updated_at": "2025-08-15T00:00:00Z",
   "items": [
-    {
-      "key": "ali",
-      "aliases": ["ali"],
-      "enumbers": ["e1234"],
-      "hazard_level": "avoid",
-      "note": "test"
-    },
-    {
-      "key": "adrian",
-      "aliases": ["adrian"],
-      "enumbers": ["e1234"],
-      "hazard_level": "avoid",
-      "note": "Very high in beans, proceed with Caution"
-    },
-    {
-      "key": "jake",
-      "aliases": ["jake"],
-      "enumbers": ["1234"],
-      "hazard_level": "avoid",
-      "note": "Can be extremely hazardous dependent on S&P 500 movement. Polish and inky in taste, smells of pumpernickel"
-    },
-    {
-      "key": "johnston",
-      "aliases": ["johnston"],
-      "enumbers": ["1234"],
-      "hazard_level": "avoid",
-      "note": "What would you do , if while I was working on this app, I got up to use the bathroom and flushed the toilet. The toilet explodes into a million pieces, shrapnel and feces goes flying towards foxwood estastes...and unfortunately..."
-    },
+    
     { "key": "potassium bromate", "aliases": ["potassium bromate", "bromated flour"], "enumbers": ["e924"], "hazard_level": "avoid", "note": "Bread improver; prohibited in EU/UK/CA; linked to carcinogenicity in animals." },
     { "key": "azodicarbonamide", "aliases": ["azodicarbonamide", "ada"], "enumbers": [], "hazard_level": "avoid", "note": "Dough conditioner; not permitted in EU; byproduct concerns during baking." },
     { "key": "brominated vegetable oil", "aliases": ["brominated vegetable oil", "bvo", "brominated soybean oil"], "enumbers": ["e443"], "hazard_level": "avoid", "note": "Emulsifier for citrus drinks; prohibited in EU/CA; removed in many markets." },
